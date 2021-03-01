@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/text_id_benda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt_kiri1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="kiri1"
+            android:textSize="16dp"/>
+
+
+
+        <TextView
+            android:id="@+id/txt_kanan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text=""
+            android:textSize="12dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/txt_kiri2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kiri2"/>
+
+        <TextView
+            android:id="@+id/txt_kanan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="kanan2"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/db_tahun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/txt_kiri3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peminjam : "/>
+
+        <TextView
+            android:id="@+id/txt_kiri4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/txt_kiri3"
+            android:text=""/>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
