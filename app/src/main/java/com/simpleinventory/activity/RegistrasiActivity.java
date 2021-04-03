@@ -28,7 +28,7 @@ public class RegistrasiActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
 
     EditText edt_reg_nama_admin, edt_reg_email, edt_reg_password;
-    Button btn_daftar;
+    Button btn_daftar, btn_pindah_login;
     String strE, strN, strEnk_nama_admin, strEnk_email, strEnk_password;
 
     @Override
@@ -43,6 +43,7 @@ public class RegistrasiActivity extends AppCompatActivity {
         edt_reg_password = (EditText) findViewById(R.id.edt_reg_password);
 
         btn_daftar = (Button) findViewById(R.id.btn_daftar);
+        btn_pindah_login = (Button) findViewById(R.id.btn_pindah_login);
 
         strE = sharedPreferences.getString("stringE", "");
         strN = sharedPreferences.getString("stringN", "");
@@ -64,6 +65,13 @@ public class RegistrasiActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Password minimal 8 karakter",
                             Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        btn_pindah_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RegistrasiActivity.this, LoginActivity.class));
             }
         });
 

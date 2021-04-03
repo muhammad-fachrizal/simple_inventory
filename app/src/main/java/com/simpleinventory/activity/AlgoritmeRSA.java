@@ -136,7 +136,7 @@ public class AlgoritmeRSA extends AppCompatActivity {
                 }
 
             }
-            startActivity(new Intent(AlgoritmeRSA.this, LoginActivity.class));
+            startActivity(new Intent(AlgoritmeRSA.this, RegistrasiActivity.class));
         }
         //startActivity(new Intent(RSAActivity.this, MainActivity.class));
 

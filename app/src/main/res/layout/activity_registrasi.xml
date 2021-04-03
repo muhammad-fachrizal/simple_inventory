@@ -21,7 +21,7 @@
             android:layout_gravity="center"
             android:textColor="@color/black"
             android:textSize="26sp"
-            android:text="Tambah Akun"/>
+            android:text="Buat Akun"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,6 +81,16 @@
             android:textColor="@color/black"
             android:background="@color/colorBackground"
             android:text="Daftar" />
+
+        <Button
+            android:id="@+id/btn_pindah_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            android:background="@color/colorBackground"
+            android:text="Login" />
 
     </LinearLayout>
 

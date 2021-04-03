@@ -6,7 +6,7 @@
         android:id="@+id/menu_register"
         android:title="Register"
         android:icon="@drawable/regis_icon"
-        android:visible="true"
+        android:visible="false"
         app:showAsAction="always"/>
 
     <item android:id="@+id/menu_logout"

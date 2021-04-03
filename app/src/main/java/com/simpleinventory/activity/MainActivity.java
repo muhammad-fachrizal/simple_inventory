@@ -343,14 +343,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (id == R.id.menu_register) {
-            if(string_id_admin.equals("13")) {
                 startActivity(new Intent(MainActivity.this, RegistrasiActivity.class));
                 return true;
-            }
-            else {
-                Toast.makeText(getApplicationContext(), "Bukan Admin Utama" + string_id_admin,
-                        Toast.LENGTH_LONG).show();
-            }
         }
         return true;
     }
