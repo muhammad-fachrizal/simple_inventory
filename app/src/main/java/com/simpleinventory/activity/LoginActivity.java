@@ -67,10 +67,6 @@ public class LoginActivity extends AppCompatActivity {
                     tesLogin();
                     adminLogin();
                 }
-                else if(edt_login_email.getText().toString().equals("mfachrizal17@gmail.com") &&
-                            edt_login_password.getText().toString().equals("admin123")) {
-                    startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                }
 
                 else if(edt_login_email.getText().toString().isEmpty()  ||
                         edt_login_password.getText().toString().isEmpty()){
