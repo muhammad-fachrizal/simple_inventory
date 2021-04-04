@@ -102,7 +102,7 @@ public class RegistrasiActivity extends AppCompatActivity {
                         if (response.optString("response").equals("Registrasi Berhasil")){
                                 Toast.makeText(getApplicationContext(), "Registrasi Berhasil",
                                     Toast.LENGTH_LONG).show();
-                            startActivity(new Intent(RegistrasiActivity.this, MainActivity.class));
+                            startActivity(new Intent(RegistrasiActivity.this, LoginActivity.class));
                             finish();
                         }
                         else {
