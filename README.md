@@ -6,4 +6,12 @@ Description: Design and develop simple inventory android app by implementing Res
 
 Simple inventory android application. It can be used to add an item and record the entry and discharge history of the item. The application will interact with the database through RestAPI.
 
-**Screenshot**
+**Screenshot** <br/>
+<img src="https://github.com/muhammad-fachrizal/simple_inventory/blob/master/screenshot/main_activity.jpg" width="50%" height="50%"> <br/>
+<img src="https://github.com/muhammad-fachrizal/simple_inventory/blob/master/screenshot/barang_masuk.png" width="50%" height="50%"> <br/>
+<img src="https://github.com/muhammad-fachrizal/simple_inventory/blob/master/screenshot/form_barang_masuk.png" width="50%" height="50%"> <br/>
+<img src="https://github.com/muhammad-fachrizal/simple_inventory/blob/master/screenshot/konfirmasi_barang_masuk.png" width="50%" height="50%"> <br/>
+<img src="https://github.com/muhammad-fachrizal/simple_inventory/blob/master/screenshot/barang_keluar.png" width="50%" height="50%"> <br/>
+<img src="https://github.com/muhammad-fachrizal/simple_inventory/blob/master/screenshot/form_barang_keluar.png" width="50%" height="50%"> <br/>
+<img src="https://github.com/muhammad-fachrizal/simple_inventory/blob/master/screenshot/konfirmasi_barang_keluar.png" width="50%" height="50%"> <br/>
+
