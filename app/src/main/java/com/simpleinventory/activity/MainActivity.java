@@ -332,13 +332,30 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.menu_logout) {
-            editor = sharedPreferences.edit();
-            editor.putString("string_id_admin", "");
-            editor.apply();
-            startActivity(new Intent(MainActivity.this, LoginActivity.class));
-            finish();
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Konfirmasi");
+            builder.setMessage("Yakin ingin Log Out?");
+            builder.setPositiveButton(
+                    "Ya",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            editor = sharedPreferences.edit();
+                            editor.putString("string_id_admin", "");
+                            editor.apply();
+                            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                            finish();
 
-            return true;
+                        }
+                    });
+            builder.setNegativeButton(
+                    "Batal",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.dismiss();
+                        }
+                    });
+
+            builder.show();
         }
 
 

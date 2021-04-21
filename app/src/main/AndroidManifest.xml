@@ -46,10 +46,10 @@
             android:label="Form Barang Keluar" />
         <activity
             android:name="com.simpleinventory.activity.MainActivity"
-            android:label="Registrasi" />
+            android:label="@string/app_name" />
         <activity
             android:name="com.simpleinventory.activity.RegistrasiActivity"
-            android:label="@string/app_name" />
+            android:label="Registrasi" />
         <activity
             android:name="com.simpleinventory.activity.BarangKeluarActivity"
             android:label="Barang Keluar" />
